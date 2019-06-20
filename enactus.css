@@ -1,0 +1,107 @@
+#bottom{
+	margin-top:   500px;
+	color: black; 
+	text-align: center;
+}
+.box-intro{
+	text-align: center;
+	display: table;
+	height: 100vh;
+	width: 100%;
+}
+.box-intro .table-cell{
+	display: table-cell;
+	vertical-align: middle;
+}
+.box-headline{
+	font-size: 120px;
+	line-height: 1.0;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.box-headline.rotate-2 .box-words-wrapper{
+	perspective: 300px;
+}
+.box-words-wrapper{
+	display: inline-block;
+	position: relative;
+}
+.box-words-wrapper b.is-visible{
+	position: relative;
+}
+.box-words-wrapper b{
+	display: inline-block;
+	position: relative;
+	white-space: nowrap;
+	left: 0;
+	right: 0;
+}
+.box-headline.rotate-2 i.out{
+animation: box-rotate-2-out 0.4s forwards;
+animation-iteration-count: 1;
+animation-delay: 0;
+animation-duration: 0.4s;
+animation-timing-function: ease;
+animation-direction: normal;
+animation-fill-mode: forwards;
+animation-play-state: running;
+animation-name: box-rotate-2-out;
+}
+
+.box-headline.rotate-2 i.in{
+animation: box-rotate-2-in 0.4s forwards;
+animation-iteration-count: 1;
+animation-delay: 0;
+animation-duration: 0.4s;
+animation-timing-function: ease;
+animation-direction: normal;
+animation-fill-mode: forwards;
+animation-play-state: running;
+animation-name: box-rotate-2-in;
+}
+body{
+	  
+	  background-image: url(https://img2.goodfon.com/wallpaper/nbig/b/2c/hogwarts-castle-inside-library.jpg);
+	  background-size: cover;
+	  background-color: dark;
+}
+ #main .navbar-brand{
+	font-family: 'Lora', serif;
+	color: #f4f442;
+	font-weight: 100;
+	ima
+}
+.nav-item{
+	font-family: 'Lora',serif;
+
+}
+#navbarSupportedContent .nav-item :hover{
+	color: #f4f442;
+	background: black;
+	font-size: 1.5rem;
+	background-position: center;
+
+}
+.footer{
+	background-color: black;
+}
+.mouse{
+	    position: absolute;
+    width: 22px;
+    height: 42px;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -12px;
+    border-radius: 15px;
+    border: 2px solid #888;
+    -webkit-animation: intro 1s;
+    animation: intro 1s;
+    animation-iteration-count: 1;
+animation-delay: 0;
+animation-duration: 0.4s;
+animation-timing-function: ease;
+animation-direction: normal;
+animation-fill-mode: forwards;
+animation-play-state: running;
+animation-name:intro;
+}
